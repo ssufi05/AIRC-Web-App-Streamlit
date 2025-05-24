@@ -5,6 +5,7 @@ st.set_page_config(
     page_icon="data/airc_logo.jpg"  # Path to logo file
 )
 
+st.image("data/airc_banner.png")
 
 # Set the title of the page
 st.title("Help us make a positive impact on the future of AI")

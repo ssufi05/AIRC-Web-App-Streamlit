@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="AIRC - About",  # Title in browser tab
-    page_icon="data/airc_logo.jpg"  # Path to logo file
+    page_icon="data/airc_logo.png"  # Path to logo file
 )
 
 # Set the title of the page
@@ -13,7 +13,7 @@ st.title("About Us")
 col1, col2 = st.columns([1, 3])
 
 with col1:
-    st.image("data/airc_logo.jpg", width=150)
+    st.image("data/airc_logo.png", width=150)
 
 with col2:
     st.subheader("Mission")
